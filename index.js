@@ -23,8 +23,9 @@ app.use(fileUpload());
 // const uri = "mongodb+srv://black:TKZ0TdahzbTYZtju@cluster0.jmwzwfx.mongodb.net/?retryWrites=true&w=majority";
 
 // const uri = "mongodb+srv://blacks:Z8ZIKdXw61GAjXUJ@cluster0.jmwzwfx.mongodb.net/?retryWrites=true&w=majority";
-const uri = "mongodb+srv://blacks:Z8ZIKdXw61GAjXUJ@cluster0.li1977d.mongodb.net/?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://blacks:Z8ZIKdXw61GAjXUJ@cluster0.li1977d.mongodb.net/?retryWrites=true&w=majority";
 // const uri = `mongodb+srv://blacks:Zm5Y38ZMoNV3DJK2@cluster0.jmwzwfx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = "mongodb+srv://isnat-era:era958@cluster-1.vzdle.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-1";
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
