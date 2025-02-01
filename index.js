@@ -48,7 +48,7 @@ async function run() {
       const user = req.body;
       // console.log(user);
       const result = await userCollection.insertOne(user);
-      console.log(body)
+      // console.log(body)
       res.json(result);
     });
 
